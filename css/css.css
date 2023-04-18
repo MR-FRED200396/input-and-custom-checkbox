@@ -1,0 +1,25 @@
+.input{
+    position: relative;
+    visibility: none;
+}
+.input::before{
+    content: "";
+    border: solid;
+    border-radius: 2px;
+    color: green;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: green;
+    
+}
+.input:checked:after {
+	content: '\2714';
+	font-size: 14px;
+	position: absolute;
+	top: -3px;
+	left: 2px;
+	color: white;
+} 
+
+

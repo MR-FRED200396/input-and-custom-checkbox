@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        textarea{
+            max-width: inherit;
+            max-height: 150px;
+            resize: none;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Контактна інформація</legend>
+            <p><label for="name">Ім’я <em>*</em></label><input type="text" id="name"></p>
+            <p><label for="email">E-mail</label><input type="email" id="email"></p>
+            <input type="text" placeholder="підказка">
+            <p>
+                <p><label for="name">Телефон <em>*</em></label>
+                    <input type="tel" id="name"></p>
+                <label for="name">Дата народження<em>*</em></label>
+                <input type="date" id="name"></p>
+                <select multiple>
+                    <option>Україна</option>
+                    <option>Італія</option>
+                    <option>Китай</option>
+                    <option>Канада</option>
+                    <option>Польща</option>
+                    <option>Швеція</option>
+                    <option>Мексика</option>
+                    <option>Ізраїль</option>
+                    <option>Норвегія</option>
+                    <option>Данія</option>
+                  </select>
+                <p>
+                    <label for="name">Завантажте CV <em>*</em></label>
+                    <input type="file" id="name"></p>
+                    <label>Сімейний стан</label>
+                    <label><br>
+                        <input type="radio" name="status">
+                        Неодружений
+                    </label> 
+                    
+                    <label>
+                        <input type="radio" name="status">
+                        Одружений
+                    </label>
+                    <label>
+                        <input type="radio" name="status">
+                        Розлучений
+                    </label>
+                    <label>
+                        <input type="radio" name="status">
+                        Вдівець
+                    </label><br>
+                    <p>Додаткова інформація</p>
+                    <textarea cols="60" rows="5"></textarea> <br>
+                    <label>
+                        <input type="checkbox"checked> Я погоджуюсь на обробку персональних даних
+                      </label>
+                      
+        </fieldset>
+        <p><label for="name"> <em>*</em></label>
+            <input type="reset" id="name"></p>
+        <p><input type="submit" value="Відправити"></p>
+    </form>
+    
+</body>
+</html>
